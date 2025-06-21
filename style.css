@@ -1,0 +1,62 @@
+body{
+    background-color: Black;
+
+}
+.outerbox{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: center;
+    align-content: center;
+}
+.innerbox{
+    border: 5px solid white;
+    width: 30%;
+    height:30%;
+    font-size:100px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    cursor: pointer;
+    color: #00FF99;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#box1{
+    border-left: none;
+    border-top: none;
+}
+#box2{
+    border-top: none;
+}
+#box3{
+    border-right: none;
+    border-top: none;
+}
+#box4{
+    border-left: none;
+}
+#box6{
+    border-right: none;
+}
+#box7{
+    border-left: none;
+    border-bottom: none;
+}
+#box8{
+    border-bottom: none;
+}
+#box9{
+    border-right: none;
+    border-bottom: none;
+}
+.heading{
+    color: aquamarine;
+    font-size: 50px;
+    font-weight: bold;
+    width:fit-content;
+    height: min-content;
+    margin: 0 auto;
+    text-decoration: underline;
+}
