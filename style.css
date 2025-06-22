@@ -94,8 +94,11 @@ body{
     font-weight: bold;
 
 }
-.option:hover{
-    background-color: rgb(177, 21, 21);
+#no:hover{
+    background-color: #b30000;
+}
+#yes:hover{
+    background-color: #1e7e34;
 }
 #yes{
     background-color: rgb(5, 230, 5);
