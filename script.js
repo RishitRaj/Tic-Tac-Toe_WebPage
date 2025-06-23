@@ -5,10 +5,11 @@ let popup = document.querySelector(".popup");
 let win = false;
 let yes = document.querySelector("#yes");
 let no = document.querySelector("#no");
+let gamelock=false
 function gameon() {
   boxes.forEach((box) => {
     box.addEventListener("click", () => {
-      if (box.innerText !== "") return;
+      if (box.innerText !== "" || gamelock===true) return;
 
       if (turn === "playerX") {
         box.innerText = "X";
@@ -57,6 +58,7 @@ function popups() {
   no.addEventListener("click", () => {
     winnerbox.innerText += "- Thanks for Playing!";
      popup.style.visibility = "hidden";
+     gamelock=true;
   })
 }
 
